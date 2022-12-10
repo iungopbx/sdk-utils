@@ -1,6 +1,6 @@
 {
   "name": "@iungopbx/sdk-utils",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "Iungo, Inc.",
     "url": "https://iungo.cloud"
@@ -35,6 +35,7 @@
       "type": "git",
       "url": "git://github.com/iungopbx/sdk-utils.git"
     },
+  "license": "MIT",
   "publishConfig": {
      "registry": "https://npm.pkg.github.com/"
    }
