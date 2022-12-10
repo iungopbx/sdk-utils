@@ -1,7 +1,15 @@
 {
-  "name": "@iungo/sdk-utils",
+  "name": "@iungopbx/sdk-utils",
   "version": "0.0.0",
-  "private": true,
+  "author": {
+    "name": "Iungo, Inc.",
+    "url": "https://iungo.cloud"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Paixao"
+    }
+  ],
   "peerDependencies": {
     "tslib": ">=2.4.0",
     "typescript": ">=4.0.0"
@@ -22,5 +30,12 @@
     "tslib": "^2.4.0",
     "typescript": "^4.8.4",
     "whatwg-fetch": "^3.0.0"
-  }
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/iungopbx/sdk-utils.git"
+    },
+  "publishConfig": {
+     "registry": "https://npm.pkg.github.com/"
+   }
 }
